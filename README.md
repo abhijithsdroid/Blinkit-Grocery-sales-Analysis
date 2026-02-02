@@ -87,40 +87,7 @@ Conduct a comprehensive analysis of sales performance, customer satisfaction, an
 - **pgAdmin 4** - PostgreSQL management
 - **VS Code** - Code editing
 
----
 
-## 🏗️ Project Architecture
-
-```
-┌─────────────────┐
-│  Excel Dataset  │
-│  (8,523 rows)   │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────────────────┐
-│   PYTHON DATA PROCESSING    │
-│  - Data Cleaning            │
-│  - EDA & Statistics         │
-│  - Visualization            │
-└────────┬────────────────────┘
-         │
-         ▼
-┌─────────────────────────────┐
-│   POSTGRESQL DATABASE       │
-│  - Data Storage             │
-│  - 13 Analytical Queries    │
-│  - Complex Aggregations     │
-└────────┬────────────────────┘
-         │
-         ▼
-┌─────────────────────────────┐
-│   POWER BI DASHBOARD        │
-│  - Interactive Visuals      │
-│  - KPI Cards                │
-│  - Dynamic Filtering        │
-└─────────────────────────────┘
-```
 
 ### Workflow Steps:
 
@@ -214,12 +181,11 @@ Conduct a comprehensive analysis of sales performance, customer satisfaction, an
 ## 🚀 Installation & Setup
 
 ### Prerequisites
-```bash
+
 Python 3.x
 PostgreSQL 13+
 Power BI Desktop
 ```
-## 📁 Project Structure
 
 
 ### Dashboard Features:
